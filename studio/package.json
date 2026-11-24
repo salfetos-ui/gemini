@@ -1,0 +1,27 @@
+{
+  "name": "kazka-pyrozhok-studio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cinema-grade 2.5D Remotion animation studio for Казка Пирожок",
+  "scripts": {
+    "build-assets": "node scripts/sync-assets.mjs",
+    "studio": "remotion studio",
+    "render": "node scripts/render-film-hybrid.mjs",
+    "render:remotion": "node scripts/render-film.mjs",
+    "render:stills": "node scripts/render-stills.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^1.2.0",
+    "@remotion/cli": "4.0.290",
+    "@remotion/renderer": "4.0.290",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.290"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/react": "18.3.1",
+    "typescript": "^5.7.3"
+  }
+}

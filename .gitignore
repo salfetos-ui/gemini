@@ -1,0 +1,13 @@
+.env
+.env.*
+node_modules/
+dist/
+.cache/
+*.tmp
+__pycache__/
+*.pyc
+output/qa_frames/
+studio/out/
+studio/.remotion/
+studio/public/audio/
+studio/public/scenes/

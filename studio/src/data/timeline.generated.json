@@ -1,0 +1,96 @@
+{
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "totalDurationSec": 100.321104,
+  "hasAudio": true,
+  "audioFile": "master_audio.wav",
+  "isFallback": false,
+  "scenes": [
+    {
+      "id": "scene_01",
+      "imageFile": "scene_01_title.jpg",
+      "startSec": 0,
+      "endSec": 4.2975,
+      "transitionSec": 0
+    },
+    {
+      "id": "scene_02",
+      "imageFile": "scene_02_boy_runs_in.jpg",
+      "startSec": 4.2975,
+      "endSec": 17.8555,
+      "transitionSec": 0.85
+    },
+    {
+      "id": "scene_03",
+      "imageFile": "scene_03_mom_welcomes.jpg",
+      "startSec": 17.8555,
+      "endSec": 24.8175,
+      "transitionSec": 0.75
+    },
+    {
+      "id": "scene_04",
+      "imageFile": "scene_04_kitchen_dove.jpg",
+      "startSec": 24.8175,
+      "endSec": 34.6869,
+      "transitionSec": 0.85
+    },
+    {
+      "id": "scene_05",
+      "imageFile": "scene_05_dove_eyes.jpg",
+      "startSec": 34.6869,
+      "endSec": 46.1623,
+      "transitionSec": 0.85
+    },
+    {
+      "id": "scene_06",
+      "imageFile": "scene_06_boy_asks.jpg",
+      "startSec": 46.1623,
+      "endSec": 50.726,
+      "transitionSec": 0.75
+    },
+    {
+      "id": "scene_07",
+      "imageFile": "scene_07_dove_speaks.jpg",
+      "startSec": 50.726,
+      "endSec": 57.406,
+      "transitionSec": 0.8
+    },
+    {
+      "id": "scene_08a",
+      "imageFile": "scene_08a_boy_surprised.jpg",
+      "startSec": 57.406,
+      "endSec": 62.0391,
+      "transitionSec": 0.65,
+      "beatSplitSec": 60.724
+    },
+    {
+      "id": "scene_08b",
+      "imageFile": "scene_08b_dove_nods.jpg",
+      "startSec": 62.0391,
+      "endSec": 67.0646,
+      "transitionSec": 0.75
+    },
+    {
+      "id": "scene_09",
+      "imageFile": "scene_09_mom_pie.jpg",
+      "startSec": 67.0646,
+      "endSec": 74.6248,
+      "transitionSec": 0.85
+    },
+    {
+      "id": "scene_10",
+      "imageFile": "scene_10_finale.jpg",
+      "startSec": 74.6248,
+      "endSec": 95.4211,
+      "transitionSec": 0.9,
+      "beatSplitSec": 87.229
+    },
+    {
+      "id": "scene_11_outro",
+      "startSec": 95.4211,
+      "endSec": 100.321104,
+      "transitionSec": 0.95
+    }
+  ]
+}
