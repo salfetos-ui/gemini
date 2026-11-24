@@ -2,7 +2,7 @@
   "title": "Казка Пирожок",
   "language": "uk",
   "model_id": "eleven_v4",
-  "total_duration_sec": 87.7649,
+  "total_duration_sec": 90.1649,
   "sample_rate": 48000,
   "channels": 2,
   "fps_recommendation": 30,
@@ -327,15 +327,17 @@
     {
       "scene_id": "10",
       "start_sec": 66.1838,
-      "end_sec": 83.1149,
-      "duration_sec": 16.9311,
-      "mood": "deeply tender maternal embrace, revelation of soul and quiet understanding"
+      "end_sec": 86.2649,
+      "duration_sec": 20.0811,
+      "mood": "deeply tender maternal embrace, revelation of soul and quiet understanding",
+      "contemplative_gaze_start_sec": 81.7649,
+      "contemplative_gaze_end_sec": 86.2649
     },
     {
       "scene_id": "11_outro",
-      "start_sec": 83.1149,
-      "end_sec": 87.7649,
-      "duration_sec": 4.65,
+      "start_sec": 86.2649,
+      "end_sec": 90.1649,
+      "duration_sec": 3.9,
       "mood": "radiant glowing Fmaj9 musical resolution and peaceful closing title card"
     }
   ],

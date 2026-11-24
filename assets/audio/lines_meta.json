@@ -222,7 +222,7 @@
       "scene": "10",
       "role": "narrator",
       "text": "Хлопчик подивився на голуба і, наче, все зрозумів...",
-      "pause_after": 2.2,
+      "pause_after": 4.6,
       "duration_sec": 4.3244,
       "dry_duration_sec": 4.3244,
       "audio_file": "assets/audio/lines/19_narrator_understood.wav",

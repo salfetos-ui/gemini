@@ -1,0 +1,330 @@
+{
+  "canvas_size": [1376, 768],
+  "scenes": {
+    "01": {
+      "image": "scene_01_title.jpg",
+      "curtains": [
+        {"bbox": [0, 0, 185, 768], "tie_y": 440, "amp_x": 7.5, "freq": 1.15, "phase": 0.0},
+        {"bbox": [445, 0, 615, 768], "tie_y": 390, "amp_x": 9.0, "freq": 1.05, "phase": 1.4}
+      ],
+      "foliage": [
+        {"bbox": [75, 410, 230, 575], "anchor_y": 570, "amp_x": 4.5, "freq": 1.4, "phase": 0.2},
+        {"bbox": [285, 400, 415, 510], "anchor_y": 505, "amp_x": 4.0, "freq": 1.6, "phase": 1.1},
+        {"bbox": [380, 375, 500, 490], "anchor_y": 485, "amp_x": 5.0, "freq": 1.35, "phase": 2.0},
+        {"bbox": [1110, 340, 1320, 510], "anchor_y": 505, "amp_x": 5.5, "freq": 1.25, "phase": 0.7}
+      ],
+      "sunbeam_origin": [260, 140],
+      "oven_glow": [915, 455, 1135, 540]
+    },
+    "02": {
+      "image": "scene_02_boy_runs_in.jpg",
+      "boy": {
+        "bbox": [305, 168, 708, 712],
+        "eyes": [
+          {"cx": 519, "cy": 273, "rx": 14, "ry": 13, "angle": -5, "kind": "human"},
+          {"cx": 560, "cy": 265, "rx": 11, "ry": 13, "angle": -5, "kind": "human"}
+        ],
+        "mouth": {
+          "cx": 545, "cy": 298, "w": 34, "h": 14,
+          "initially_open": false, "facing": "right", "jaw_drop": 10.5
+        },
+        "hair_bbox": [418, 172, 600, 326],
+        "torso_center": [500, 445],
+        "limbs": {
+          "back_arm_shoulder": [460, 382],
+          "back_arm_hand": [345, 445],
+          "front_arm_shoulder": [552, 382],
+          "front_arm_hand": [676, 442],
+          "back_leg_hip": [472, 538],
+          "back_leg_foot": [375, 628],
+          "front_leg_hip": [508, 542],
+          "front_leg_foot": [558, 682]
+        }
+      },
+      "aroma_path": [[935, 345], [840, 220], [745, 225], [645, 265], [565, 292]],
+      "foliage": [
+        {"bbox": [0, 285, 175, 625], "anchor_y": 620, "amp_x": 5.0, "freq": 1.3, "phase": 0.3},
+        {"bbox": [1250, 85, 1376, 310], "anchor_y": 305, "amp_x": 4.5, "freq": 1.4, "phase": 1.7}
+      ],
+      "sunbeam_origin": [190, 90]
+    },
+    "03": {
+      "image": "scene_03_mom_welcomes.jpg",
+      "mom": {
+        "bbox": [512, 148, 898, 756],
+        "eyes": [
+          {"cx": 690, "cy": 217, "rx": 10, "ry": 7, "angle": 0, "kind": "human"},
+          {"cx": 719, "cy": 217, "rx": 10, "ry": 7, "angle": 0, "kind": "human"}
+        ],
+        "mouth": {
+          "cx": 705, "cy": 241, "w": 24, "h": 11,
+          "initially_open": true, "facing": "front", "jaw_drop": 8.0
+        },
+        "hair_bbox": [652, 148, 768, 255],
+        "torso_center": [705, 385],
+        "left_arm": {"shoulder": [655, 310], "hand": [535, 385]},
+        "right_arm": {"shoulder": [760, 310], "hand": [875, 405]},
+        "skirt_bbox": [615, 480, 808, 655]
+      },
+      "curtains": [
+        {"bbox": [336, 40, 520, 540], "tie_y": 35, "amp_x": 6.5, "freq": 1.25, "phase": 0.4}
+      ],
+      "oven_glow": [818, 445, 922, 540],
+      "sunbeam_origin": [240, 120]
+    },
+    "04": {
+      "image": "scene_04_kitchen_dove.jpg",
+      "boy": {
+        "eyes": [
+          {"cx": 539, "cy": 250, "rx": 9, "ry": 13, "angle": 0, "kind": "human_profile"}
+        ],
+        "hair_bbox": [345, 102, 598, 320],
+        "torso_bbox": [350, 325, 570, 768]
+      },
+      "dove": {
+        "eyes": [
+          {"cx": 942, "cy": 300, "rx": 7, "ry": 7, "angle": 0, "kind": "dove"}
+        ],
+        "head_pivot": [945, 345],
+        "head_bbox": [900, 272, 980, 348],
+        "body_bbox": [902, 325, 1110, 510]
+      },
+      "curtains": [
+        {"bbox": [725, 0, 912, 768], "tie_y": 325, "amp_x": 7.5, "freq": 1.05, "phase": 0.5},
+        {"bbox": [1222, 0, 1376, 768], "tie_y": 325, "amp_x": 6.0, "freq": 1.15, "phase": 1.9}
+      ],
+      "foliage": [
+        {"bbox": [100, 215, 348, 332], "anchor_y": 330, "amp_x": 3.0, "freq": 1.3, "phase": 0.2},
+        {"bbox": [1158, 255, 1318, 435], "anchor_y": 430, "amp_x": 5.5, "freq": 1.2, "phase": 1.0}
+      ],
+      "sunbeam_origin": [1060, 120]
+    },
+    "05": {
+      "image": "scene_05_dove_eyes.jpg",
+      "dove": {
+        "eyes": [
+          {"cx": 687, "cy": 185, "rx": 20, "ry": 19, "angle": 0, "kind": "dove_macro", "specular": [682, 178]}
+        ],
+        "head_pivot": [650, 285],
+        "head_bbox": [595, 125, 795, 290],
+        "body_bbox": [210, 265, 770, 680]
+      },
+      "curtains": [
+        {"bbox": [545, 0, 960, 768], "tie_y": 315, "amp_x": 6.5, "freq": 0.85, "phase": 0.3}
+      ],
+      "foliage": [
+        {"bbox": [0, 190, 90, 475], "anchor_y": 470, "amp_x": 5.0, "freq": 1.0, "phase": 0.8}
+      ],
+      "sunbeam_origin": [140, 80]
+    },
+    "06": {
+      "image": "scene_06_boy_asks.jpg",
+      "boy": {
+        "eyes": [
+          {"cx": 613, "cy": 301, "rx": 12, "ry": 18, "angle": 0, "kind": "human_profile"}
+        ],
+        "mouth": {
+          "cx": 634, "cy": 361, "w": 22, "h": 14,
+          "initially_open": true, "facing": "profile_right", "jaw_drop": 10.0
+        },
+        "hair_bbox": [370, 88, 705, 388],
+        "torso_bbox": [315, 390, 610, 715]
+      },
+      "dove": {
+        "eyes": [
+          {"cx": 942, "cy": 300, "rx": 7, "ry": 7, "angle": 0, "kind": "dove"}
+        ],
+        "head_pivot": [945, 345],
+        "head_bbox": [900, 272, 980, 348],
+        "body_bbox": [902, 325, 1110, 510]
+      },
+      "curtains": [
+        {"bbox": [725, 0, 912, 768], "tie_y": 325, "amp_x": 7.5, "freq": 1.05, "phase": 0.6},
+        {"bbox": [1222, 0, 1376, 768], "tie_y": 325, "amp_x": 6.0, "freq": 1.15, "phase": 2.0}
+      ],
+      "foliage": [
+        {"bbox": [100, 215, 348, 332], "anchor_y": 330, "amp_x": 3.0, "freq": 1.3, "phase": 0.4},
+        {"bbox": [1158, 255, 1318, 435], "anchor_y": 430, "amp_x": 5.5, "freq": 1.2, "phase": 1.1}
+      ],
+      "sunbeam_origin": [1060, 120]
+    },
+    "07": {
+      "image": "scene_07_dove_speaks.jpg",
+      "dove": {
+        "eyes": [
+          {"cx": 656, "cy": 294, "rx": 10, "ry": 10, "angle": 0, "kind": "dove"}
+        ],
+        "beak": {
+          "hinge": [635, 310],
+          "upper_tip": [595, 326],
+          "lower_tip": [602, 325],
+          "facing": "left",
+          "max_angle_deg": 18.0
+        },
+        "head_pivot": [665, 365],
+        "head_bbox": [585, 260, 710, 385],
+        "body_bbox": [575, 360, 825, 650],
+        "left_wing": {
+          "root": [595, 415],
+          "tip": [456, 112],
+          "polygon": [[595, 448], [542, 382], [482, 260], [448, 106], [492, 108], [545, 228], [602, 355], [610, 432]]
+        },
+        "right_wing": {
+          "root": [715, 420],
+          "tip": [1125, 105],
+          "polygon": [[698, 412], [785, 308], [925, 198], [1085, 92], [1142, 128], [1078, 278], [968, 428], [845, 538], [755, 522], [702, 465]]
+        },
+        "halo_center": [690, 295]
+      },
+      "curtains": [
+        {"bbox": [190, 0, 485, 768], "tie_y": 355, "amp_x": 8.5, "freq": 1.1, "phase": 0.2},
+        {"bbox": [1190, 0, 1376, 768], "tie_y": 355, "amp_x": 7.0, "freq": 1.2, "phase": 1.6}
+      ],
+      "foliage": [
+        {"bbox": [1090, 215, 1348, 525], "anchor_y": 520, "amp_x": 6.5, "freq": 1.25, "phase": 0.9}
+      ],
+      "sunbeam_origin": [750, 90]
+    },
+    "08a": {
+      "image": "scene_08a_boy_surprised.jpg",
+      "boy": {
+        "eyes": [
+          {"cx": 625, "cy": 337, "rx": 36, "ry": 35, "angle": 0, "kind": "human"},
+          {"cx": 781, "cy": 337, "rx": 36, "ry": 35, "angle": 0, "kind": "human"}
+        ],
+        "eyebrows": [
+          {"cx": 620, "cy": 265, "rx": 44, "ry": 18},
+          {"cx": 782, "cy": 265, "rx": 44, "ry": 18}
+        ],
+        "mouth": {
+          "cx": 700, "cy": 456, "w": 54, "h": 24,
+          "initially_open": true, "facing": "front", "jaw_drop": 17.0
+        },
+        "hair_bbox": [425, 0, 980, 470],
+        "torso_bbox": [435, 535, 965, 768]
+      },
+      "curtains": [
+        {"bbox": [1220, 0, 1376, 768], "tie_y": 325, "amp_x": 6.5, "freq": 1.15, "phase": 0.5}
+      ],
+      "foliage": [
+        {"bbox": [1155, 255, 1315, 430], "anchor_y": 425, "amp_x": 4.5, "freq": 1.25, "phase": 1.2}
+      ],
+      "sunbeam_origin": [1060, 110]
+    },
+    "08b": {
+      "image": "scene_08b_dove_nods.jpg",
+      "dove": {
+        "eyes": [
+          {"cx": 678, "cy": 263, "rx": 11, "ry": 11, "angle": 0, "kind": "dove"}
+        ],
+        "head_pivot": [718, 345],
+        "head_bbox": [618, 200, 768, 355],
+        "body_bbox": [655, 345, 1025, 620]
+      },
+      "curtains": [
+        {"bbox": [735, 0, 865, 430], "tie_y": 280, "amp_x": 6.0, "freq": 1.0, "phase": 0.4}
+      ],
+      "foliage": [
+        {"bbox": [1140, 140, 1376, 485], "anchor_y": 480, "amp_x": 6.5, "freq": 1.2, "phase": 0.7}
+      ],
+      "sunbeam_origin": [920, 100]
+    },
+    "09": {
+      "image": "scene_09_mom_pie.jpg",
+      "mom": {
+        "eyes": [
+          {"cx": 456, "cy": 168, "rx": 14, "ry": 9, "angle": 2, "kind": "human"},
+          {"cx": 496, "cy": 174, "rx": 11, "ry": 9, "angle": 2, "kind": "human"}
+        ],
+        "mouth": {
+          "cx": 467, "cy": 215, "w": 32, "h": 14,
+          "initially_open": true, "facing": "right", "jaw_drop": 8.0
+        },
+        "hair_bbox": [335, 18, 540, 228],
+        "torso_bbox": [265, 225, 535, 768]
+      },
+      "boy": {
+        "eyes": [
+          {"cx": 823, "cy": 378, "rx": 8, "ry": 13, "angle": -5, "kind": "human"},
+          {"cx": 856, "cy": 389, "rx": 13, "ry": 15, "angle": -5, "kind": "human"}
+        ],
+        "mouth": {
+          "cx": 824, "cy": 424, "w": 18, "h": 11,
+          "initially_open": true, "facing": "left", "jaw_drop": 9.0
+        },
+        "hair_bbox": [788, 262, 990, 458],
+        "torso_bbox": [765, 455, 985, 768],
+        "pointing_arm": {"pivot": [785, 595], "hand": [725, 555], "bbox": [695, 520, 815, 635]}
+      },
+      "pie": {
+        "center": [568, 465],
+        "steam_x_range": [495, 635],
+        "steam_y": 455
+      },
+      "curtains": [
+        {"bbox": [850, 0, 998, 415], "tie_y": 290, "amp_x": 6.5, "freq": 1.05, "phase": 0.3},
+        {"bbox": [1230, 0, 1376, 768], "tie_y": 335, "amp_x": 6.5, "freq": 1.15, "phase": 1.5}
+      ],
+      "foliage": [
+        {"bbox": [560, 220, 765, 335], "anchor_y": 330, "amp_x": 3.0, "freq": 1.35, "phase": 0.2},
+        {"bbox": [1180, 255, 1325, 435], "anchor_y": 430, "amp_x": 5.5, "freq": 1.2, "phase": 1.0}
+      ],
+      "sunbeam_origin": [1080, 120]
+    },
+    "10": {
+      "image": "scene_10_finale.jpg",
+      "mom": {
+        "eyes": [
+          {"cx": 418, "cy": 179, "rx": 13, "ry": 8, "angle": 4, "kind": "human_profile"}
+        ],
+        "mouth": {
+          "cx": 425, "cy": 217, "w": 24, "h": 10,
+          "initially_open": false, "facing": "right", "jaw_drop": 8.5
+        },
+        "hair_bbox": [280, 32, 470, 215],
+        "torso_bbox": [180, 215, 445, 768],
+        "caress_hand": {"pivot": [315, 438], "hand": [445, 392], "bbox": [345, 355, 495, 455]}
+      },
+      "boy": {
+        "eyes": [
+          {"cx": 520, "cy": 297, "rx": 12, "ry": 13, "angle": 0, "kind": "human"},
+          {"cx": 553, "cy": 297, "rx": 9, "ry": 13, "angle": 0, "kind": "human"}
+        ],
+        "mouth": {
+          "cx": 542, "cy": 334, "w": 30, "h": 10,
+          "left_corner": [525, 330], "right_corner": [556, 329],
+          "initially_open": false, "facing": "right"
+        },
+        "hair_bbox": [408, 188, 598, 352],
+        "torso_bbox": [400, 352, 600, 625],
+        "feet_bbox": [505, 645, 615, 752]
+      },
+      "dove": {
+        "eyes": [
+          {"cx": 942, "cy": 300, "rx": 7, "ry": 7, "angle": 0, "kind": "dove"}
+        ],
+        "head_pivot": [945, 345],
+        "head_bbox": [898, 270, 982, 348],
+        "body_bbox": [902, 325, 1110, 510]
+      },
+      "gaze_line": {
+        "boy_eye": [540, 297],
+        "dove_eye": [942, 300]
+      },
+      "pie": {
+        "center": [630, 425],
+        "steam_x_range": [580, 680],
+        "steam_y": 412
+      },
+      "curtains": [
+        {"bbox": [725, 0, 912, 768], "tie_y": 325, "amp_x": 7.0, "freq": 0.95, "phase": 0.4},
+        {"bbox": [1222, 0, 1376, 768], "tie_y": 325, "amp_x": 5.5, "freq": 1.05, "phase": 1.8}
+      ],
+      "foliage": [
+        {"bbox": [100, 215, 270, 332], "anchor_y": 330, "amp_x": 2.5, "freq": 1.2, "phase": 0.3},
+        {"bbox": [1158, 255, 1318, 435], "anchor_y": 430, "amp_x": 5.0, "freq": 1.1, "phase": 1.1}
+      ],
+      "sunbeam_origin": [1060, 120]
+    }
+  }
+}
