@@ -1,0 +1,15 @@
+{
+  "name": "kazka-pyrozhok-studio-v2",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Studio-grade 2D Painterly Skeletal Animation Engine & Character Rigs for Казка Пирожок",
+  "scripts": {
+    "showcase": "node scripts/render-rig-showcase.mjs",
+    "preview-scenes": "node scripts/preview-scenes.mjs",
+    "render-film": "node scripts/render-film.mjs"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.100"
+  }
+}

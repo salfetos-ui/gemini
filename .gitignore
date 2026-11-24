@@ -11,3 +11,7 @@ studio/out/
 studio/.remotion/
 studio/public/audio/
 studio/public/scenes/
+studio_v2/preview/
+studio_v2/out/
+studio_v2/.remotion/
+studio_v2/node_modules/

@@ -1,20 +1,21 @@
 {
+  "model_id": "eleven_v4",
   "voices_used": {
     "narrator": {
-      "name": "Mykola - Christmas Storyteller",
-      "voice_id": "jsQZaQ22xaNCrus7aTPu"
+      "name": "Pavlo Lysenko - Premium Audiobook",
+      "voice_id": "9oLzyMRRRWl0OdCCVwlU"
     },
     "boy": {
       "name": "Torri Miles - Bright Childlike",
       "voice_id": "a30ekmfK56EKHR341YaO"
     },
     "mom": {
-      "name": "Khrystyna - Sweet & Calm",
-      "voice_id": "gF0lB8o9gaDnjqCxZayW"
+      "name": "Kateryna - Warm Maternal",
+      "voice_id": "X1WtgMmQUBwtiAPn4j1P"
     },
     "dove": {
-      "name": "Dmytro - Serene Celestial Messenger",
-      "voice_id": "GVYxfyhhakQOHOUnYfIG"
+      "name": "Leonid Drapei - Serene Celestial Messenger",
+      "voice_id": "eLDtXX7z65CuLasDRxrP"
     }
   },
   "lines": [
@@ -23,171 +24,209 @@
       "scene": "01",
       "role": "narrator",
       "text": "Казка Пирожок.",
-      "pause_after": 1.4,
-      "duration_sec": 1.6575,
-      "audio_file": "assets/audio/lines/01_narrator_title.wav"
+      "pause_after": 1.15,
+      "duration_sec": 1.5546,
+      "dry_duration_sec": 1.5546,
+      "audio_file": "assets/audio/lines/01_narrator_title.wav",
+      "dry_audio_file": "assets/audio/lines_dry/01_narrator_title.wav"
     },
     {
       "id": "02_boy_smell",
       "scene": "02",
       "role": "boy",
       "text": "Що це так пахне, мамо?!",
-      "pause_after": 0.55,
-      "duration_sec": 1.9505,
-      "audio_file": "assets/audio/lines/02_boy_smell.wav"
+      "pause_after": 0.42,
+      "duration_sec": 2.08,
+      "dry_duration_sec": 2.08,
+      "audio_file": "assets/audio/lines/02_boy_smell.wav",
+      "dry_audio_file": "assets/audio/lines_dry/02_boy_smell.wav"
     },
     {
       "id": "03_narrator_ran_in",
       "scene": "02",
       "role": "narrator",
       "text": "Хлопчик забіг додому і з порогу вчув смак малинового варення. А він так полюбляв це малинове варення.",
-      "pause_after": 0.7,
-      "duration_sec": 10.0775,
-      "audio_file": "assets/audio/lines/03_narrator_ran_in.wav"
+      "pause_after": 0.65,
+      "duration_sec": 7.524,
+      "dry_duration_sec": 7.524,
+      "audio_file": "assets/audio/lines/03_narrator_ran_in.wav",
+      "dry_audio_file": "assets/audio/lines_dry/03_narrator_ran_in.wav"
     },
     {
       "id": "04_mom_come_in",
       "scene": "03",
       "role": "mom",
       "text": "Заходь, сину,",
-      "pause_after": 0.25,
-      "duration_sec": 0.9721,
-      "audio_file": "assets/audio/lines/04_mom_come_in.wav"
+      "pause_after": 0.16,
+      "duration_sec": 1.36,
+      "dry_duration_sec": 1.36,
+      "audio_file": "assets/audio/lines/04_mom_come_in.wav",
+      "dry_audio_file": "assets/audio/lines_dry/04_mom_come_in.wav"
     },
     {
       "id": "05_narrator_mom_ran",
       "scene": "03",
       "role": "narrator",
       "text": "вибігла назустріч мама,",
-      "pause_after": 0.25,
-      "duration_sec": 1.9969,
-      "audio_file": "assets/audio/lines/05_narrator_mom_ran.wav"
+      "pause_after": 0.14,
+      "duration_sec": 1.68,
+      "dry_duration_sec": 1.68,
+      "audio_file": "assets/audio/lines/05_narrator_mom_ran.wav",
+      "dry_audio_file": "assets/audio/lines_dry/05_narrator_mom_ran.wav"
     },
     {
       "id": "06_mom_pie_ready",
       "scene": "03",
       "role": "mom",
       "text": "пиріг допікається, будемо куштувати.",
-      "pause_after": 0.95,
-      "duration_sec": 2.643,
-      "audio_file": "assets/audio/lines/06_mom_pie_ready.wav"
+      "pause_after": 0.85,
+      "duration_sec": 2.64,
+      "dry_duration_sec": 2.64,
+      "audio_file": "assets/audio/lines/06_mom_pie_ready.wav",
+      "dry_audio_file": "assets/audio/lines_dry/06_mom_pie_ready.wav"
     },
     {
       "id": "07_narrator_saw_bird",
       "scene": "04",
       "role": "narrator",
       "text": "Пішов хлопчик на кухню і побачив птаха на вікні. Це був голуб білий.",
-      "pause_after": 0.8,
-      "duration_sec": 9.0094,
-      "audio_file": "assets/audio/lines/07_narrator_saw_bird.wav"
+      "pause_after": 0.72,
+      "duration_sec": 5.1369,
+      "dry_duration_sec": 5.1369,
+      "audio_file": "assets/audio/lines/07_narrator_saw_bird.wav",
+      "dry_audio_file": "assets/audio/lines_dry/07_narrator_saw_bird.wav"
     },
     {
       "id": "08_narrator_sky_eyes",
       "scene": "05",
       "role": "narrator",
       "text": "Він дивився на нього такими прозорими очима, як небо. І розплився простір тихий і так добре стало на душі.",
-      "pause_after": 1.1,
-      "duration_sec": 10.4954,
-      "audio_file": "assets/audio/lines/08_narrator_sky_eyes.wav"
+      "pause_after": 0.95,
+      "duration_sec": 8.8785,
+      "dry_duration_sec": 8.8785,
+      "audio_file": "assets/audio/lines/08_narrator_sky_eyes.wav",
+      "dry_audio_file": "assets/audio/lines_dry/08_narrator_sky_eyes.wav"
     },
     {
       "id": "09_boy_who",
       "scene": "06",
       "role": "boy",
       "text": "Хто ти?",
-      "pause_after": 0.3,
-      "duration_sec": 0.743,
-      "audio_file": "assets/audio/lines/09_boy_who.wav"
+      "pause_after": 0.18,
+      "duration_sec": 0.96,
+      "dry_duration_sec": 0.96,
+      "audio_file": "assets/audio/lines/09_boy_who.wav",
+      "dry_audio_file": "assets/audio/lines_dry/09_boy_who.wav"
     },
     {
       "id": "10_narrator_asked",
       "scene": "06",
       "role": "narrator",
       "text": "спитав хлопчик у Голуба.",
-      "pause_after": 0.8,
-      "duration_sec": 2.6006,
-      "audio_file": "assets/audio/lines/10_narrator_asked.wav"
+      "pause_after": 0.72,
+      "duration_sec": 1.84,
+      "dry_duration_sec": 1.84,
+      "audio_file": "assets/audio/lines/10_narrator_asked.wav",
+      "dry_audio_file": "assets/audio/lines_dry/10_narrator_asked.wav"
     },
     {
       "id": "11_dove_messenger",
       "scene": "07",
       "role": "dove",
       "text": "Я — посланець, я приношу радість і сміх, я — велич твоя і твій пиріг.",
-      "pause_after": 1.0,
-      "duration_sec": 5.76,
-      "audio_file": "assets/audio/lines/11_dove_messenger.wav"
+      "pause_after": 0.18,
+      "duration_sec": 8.81,
+      "dry_duration_sec": 7.76,
+      "audio_file": "assets/audio/lines/11_dove_messenger.wav",
+      "dry_audio_file": "assets/audio/lines_dry/11_dove_messenger.wav"
     },
     {
       "id": "12_boy_pie_q1",
       "scene": "08",
       "role": "boy",
       "text": "Пиріг?",
-      "pause_after": 0.25,
-      "duration_sec": 0.583,
-      "audio_file": "assets/audio/lines/12_boy_pie_q1.wav"
+      "pause_after": 0.16,
+      "duration_sec": 0.9582,
+      "dry_duration_sec": 0.9582,
+      "audio_file": "assets/audio/lines/12_boy_pie_q1.wav",
+      "dry_audio_file": "assets/audio/lines_dry/12_boy_pie_q1.wav"
     },
     {
       "id": "13_narrator_surprised",
       "scene": "08",
       "role": "narrator",
       "text": "здивувався хлопчик.",
-      "pause_after": 0.25,
-      "duration_sec": 1.8349,
-      "audio_file": "assets/audio/lines/13_narrator_surprised.wav"
+      "pause_after": 0.18,
+      "duration_sec": 1.4447,
+      "dry_duration_sec": 1.4447,
+      "audio_file": "assets/audio/lines/13_narrator_surprised.wav",
+      "dry_audio_file": "assets/audio/lines_dry/13_narrator_surprised.wav"
     },
     {
       "id": "14_boy_how_pie",
       "scene": "08",
       "role": "boy",
       "text": "Як пиріг?",
-      "pause_after": 0.75,
-      "duration_sec": 0.9401,
-      "audio_file": "assets/audio/lines/14_boy_how_pie.wav"
+      "pause_after": 0.65,
+      "duration_sec": 1.28,
+      "dry_duration_sec": 1.28,
+      "audio_file": "assets/audio/lines/14_boy_how_pie.wav",
+      "dry_audio_file": "assets/audio/lines_dry/14_boy_how_pie.wav"
     },
     {
       "id": "15_narrator_dove_nod",
       "scene": "08",
       "role": "narrator",
       "text": "А голуб стояв і лише головою кивав.",
-      "pause_after": 1.05,
-      "duration_sec": 4.0205,
-      "audio_file": "assets/audio/lines/15_narrator_dove_nod.wav"
+      "pause_after": 0.9,
+      "duration_sec": 2.96,
+      "dry_duration_sec": 2.96,
+      "audio_file": "assets/audio/lines/15_narrator_dove_nod.wav",
+      "dry_audio_file": "assets/audio/lines_dry/15_narrator_dove_nod.wav"
     },
     {
       "id": "16_boy_ask_mom",
       "scene": "09",
       "role": "boy",
       "text": "Хм, пиріг... Мамо, мамо, чому голуб сказав, що він мій пиріг? Як це?",
-      "pause_after": 0.85,
-      "duration_sec": 6.6302,
-      "audio_file": "assets/audio/lines/16_boy_ask_mom.wav"
+      "pause_after": 0.75,
+      "duration_sec": 6.8318,
+      "dry_duration_sec": 6.8318,
+      "audio_file": "assets/audio/lines/16_boy_ask_mom.wav",
+      "dry_audio_file": "assets/audio/lines_dry/16_boy_ask_mom.wav"
     },
     {
       "id": "17_narrator_mom_smile",
       "scene": "10",
       "role": "narrator",
       "text": "Мама лише тихо посміхнулась і погладила сина по голові:",
-      "pause_after": 0.65,
-      "duration_sec": 6.2119,
-      "audio_file": "assets/audio/lines/17_narrator_mom_smile.wav"
+      "pause_after": 0.55,
+      "duration_sec": 3.9205,
+      "dry_duration_sec": 3.9205,
+      "audio_file": "assets/audio/lines/17_narrator_mom_smile.wav",
+      "dry_audio_file": "assets/audio/lines_dry/17_narrator_mom_smile.wav"
     },
     {
       "id": "18_mom_soul",
       "scene": "10",
       "role": "mom",
       "text": "Так, серденько, він — твій пиріг, і твоє дитинство, і твоя Душа...",
-      "pause_after": 1.25,
-      "duration_sec": 4.8399,
-      "audio_file": "assets/audio/lines/18_mom_soul.wav"
+      "pause_after": 1.05,
+      "duration_sec": 5.4213,
+      "dry_duration_sec": 5.4213,
+      "audio_file": "assets/audio/lines/18_mom_soul.wav",
+      "dry_audio_file": "assets/audio/lines_dry/18_mom_soul.wav"
     },
     {
       "id": "19_narrator_understood",
       "scene": "10",
       "role": "narrator",
       "text": "Хлопчик подивився на голуба і, наче, все зрозумів...",
-      "pause_after": 2.5,
-      "duration_sec": 6.1046,
-      "audio_file": "assets/audio/lines/19_narrator_understood.wav"
+      "pause_after": 2.2,
+      "duration_sec": 4.3244,
+      "dry_duration_sec": 4.3244,
+      "audio_file": "assets/audio/lines/19_narrator_understood.wav",
+      "dry_audio_file": "assets/audio/lines_dry/19_narrator_understood.wav"
     }
   ],
   "sfx": [
